@@ -76,7 +76,7 @@ To counter this, we designed a **Balanced Metric** for model monitoring and chec
 
 Let $S$ be the set of $R^2$ scores for the three individual targets:
 
-$$S = \{R^{2}_{\text{Dry\_Green}}, R^{2}_{\text{Dry\_Dead}}, R^{2}_{\text{Dry\_Clover}}\}$$
+$$S = \{R^2_1, R^2_2, R^2_3\}$$
 
 We define our custom optimization objective as:
 
