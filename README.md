@@ -75,7 +75,7 @@ This creates a scenario where the mean score looks good, but the model fails sig
 To counter this, we designed a **Balanced Metric** for model monitoring and checkpoint selection. The core idea is to treat the $R^2$ scores of the three targets as a set and penalize the variance within that set.
 
 Let $S$ be the set of $R^2$ scores for the three individual targets:
-$$S = \{R^2_{\text{Dry\_Green}}, R^2_{\text{Dry\_Dead}}, R^2_{\text{Dry\_Clover}}\}$$
+$$S = \{R^{2}_{\text{Dry\_Green}}, R^{2}_{\text{Dry\_Dead}}, R^{2}_{\text{Dry\_Clover}}\}$$
 
 We define our custom optimization objective as:
 
